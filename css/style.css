@@ -582,4 +582,8 @@ a {
   .header__button {
     display: flex;
   }
+
+  .header__hamburger {
+    display: none;
+  }
 }
