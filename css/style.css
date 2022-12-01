@@ -26,7 +26,8 @@ a {
 
 .container {
   max-width: 480px;
-  margin: 0 auto;
+  width: 90%;
+  margin: auto;
 }
 
 /* mobile first */
@@ -34,13 +35,13 @@ a {
 .header {
   display: flex;
   margin: 40px;
+  z-index: 12;
 }
 
 .header__content {
   display: flex;
   flex: row nowrap;
   justify-content: space-between;
-  width: 370px;
 }
 
 .header__logo {
@@ -127,7 +128,6 @@ a {
 
 .hero__content {
   display: flex;
-  width: 480px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -196,7 +196,6 @@ a {
 
 .different__content {
   display: flex;
-  width: 480px;
   flex-direction: column;
   align-self: stretch;
   background: #3cddf3;
@@ -228,7 +227,6 @@ a {
 
 .articles__content {
   display: flex;
-  width: 480px;
   flex-direction: column;
   align-self: stretch;
   padding: 65px 0px 58px 34px;
@@ -289,7 +287,6 @@ a {
 
 .cards__content {
   display: flex;
-  width: 480px;
   flex-direction: column;
   align-self: stretch;
   padding: 40px 20px;
@@ -383,11 +380,6 @@ a {
 
 .thebest {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  color: #000000;
 }
 
 .thebest__content {
@@ -430,7 +422,6 @@ a {
 
 .footer__content {
   display: flex;
-  width: 480px;
   color: white;
   flex-direction: column;
   align-items: center;
