@@ -362,7 +362,7 @@ a {
 .cards__img {
   position: absolute;
   top: -30px;
-  left: 40%;
+  left: 42%;
 }
 
 .cards__card--one {
@@ -585,5 +585,203 @@ a {
 
   .header__hamburger {
     display: none;
+  }
+
+  /* hero */
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 0px 0px 80px;
+  }
+
+  /* seccion 1 */
+
+  .different {
+    display: flex;
+  }
+
+  .different__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: #8b48bf;
+    padding: 40px 220px;
+  }
+
+  .different__content h2 {
+    width: 480px;
+  }
+
+  .different__content p {
+    width: 450px;
+  }
+
+  .articles {
+    display: flex;
+  }
+
+  .articles__content {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+  }
+
+  .articles__content article {
+    width: 550px;
+  }
+
+  .articles__titles {
+    background: #fff;
+  }
+
+  .articles__titles button {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .articles__desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: #fafafa;
+  }
+
+  .articles__desktop--down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  /* section 2 */
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 220px;
+  }
+
+  .cards__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards__card--one {
+    display: flex;
+  }
+
+  .cards__card--two {
+    display: flex;
+  }
+
+  .cards__card--three {
+    display: flex;
+  }
+
+  /* the best teams */
+
+  .thebest {
+    display: flex;
+  }
+
+  .thebest__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 65px 200px;
+    gap: 500px;
+    background: #8b48bf;
+  }
+
+  .thebest__content--text {
+    width: 400px;
+    padding: 40px 0px 0px 0px;
+    align-self: center;
+    text-align: left;
+  }
+
+  .thebest__content button {
+    color: #8b48bf;
+    background: #ffffff;
+  }
+
+  /* footer */
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__content {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px 150px;
+  }
+
+  .footer__content--nav {
+    order: 3;
+  }
+
+  .footer__content--social {
+    order: 2;
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+  }
+
+  .footer__content--social img {
+    padding: 0px;
+    margin: 5px;
+    width: 24px;
+  }
+
+  .footer__content--logo {
+    order: 1;
+    align-self: flex-start;
+  }
+
+  .footer__content--copyright {
+    order: 5;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+  }
+
+  .footer__content--newsletter {
+    order: 4;
+    align-self: flex-start;
+    margin-top: 50px;
   }
 }
